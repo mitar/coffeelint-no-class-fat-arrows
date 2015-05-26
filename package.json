@@ -1,0 +1,33 @@
+{
+  "name": "coffeelint-no-class-fat-arrows",
+  "description" : " CoffeeLint rule which forbids fat arrows for object methods.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/coffee-script/bin/coffee vowsrunner.coffee --spec tests.coffee"
+  },
+  "homepage": "https://github.com/mitar/coffeelint-no-class-fat-arrows",
+  "version": "0.1.0",
+  "dependencies": {
+    "coffee-script": "~1.8.0"
+  },
+  "peerDependencies": {
+    "coffeelint": "~1"
+  },
+  "devDependencies": {
+    "vows": ">=0.6.0",
+    "underscore": ">=1.8.3"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "repository" : {
+    "type": "git",
+    "url": "https://github.com/mitar/coffeelint-no-class-fat-arrows.git"
+  },
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "coffeelint",
+    "lint",
+    "coffeelintrule"
+  ]
+}
