@@ -10,12 +10,10 @@
   "dependencies": {
     "coffee-script": "~1.8.0"
   },
-  "peerDependencies": {
-    "coffeelint": "~1"
-  },
   "devDependencies": {
     "vows": ">=0.6.0",
-    "underscore": ">=1.8.3"
+    "underscore": ">=1.8.3",
+    "coffeelint": "~1"
   },
   "engines": {
     "node": ">=0.10.0"
